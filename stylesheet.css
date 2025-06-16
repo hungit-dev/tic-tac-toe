@@ -1,0 +1,66 @@
+
+/*tags*/
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+form {
+    font-size: 20px;
+    padding: 20px;
+}
+fieldset {
+    border: 1px solid black;
+}
+legend {
+    font-size: 25px;
+
+}
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+button {
+    width: 110px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/*class*/
+.winner-display {
+    font-size: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    display: none;
+    font-size: 40px;
+    border: 1px solid black;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.cell:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.row1,
+.row2 {
+    display: flex;
+    align-items: center;
+}
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+    border: 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1>TIC TAC TOE GAME</h1>
+    <div class="winner-display"></div>
+    <div class="container">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <dialog>
+      <form>
+        <fieldset>
+          <legend>Players information:</legend>
+          <div class="row1">
+            <label for="player1-name">Add player 1 name: </label>
+            <input type="text" id="player1-name" />
+          </div>
+          <div class="row2">
+            <label for="player2-name">Add player 2 name: </label>
+            <input type="text" id="player2-name" />
+          </div>
+        </fieldset>
+        <div class="button-row">
+          <button type="button" id="submit-button">Submit</button>
+          <button type="button" id="close-button">Close</button>
+        </div>
+      </form>
+    </dialog>
+    <button type="button" id="start-button">Start</button>
+    <button type="button" id="change-name-button">Change names</button>
+    <button type="button" id="restart-button">Restart</button>
+    <script src="script.js"></script>
+  </body>
+</html>
