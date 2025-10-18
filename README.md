@@ -1,3 +1,3 @@
 # Tic-Tac-Toe
 
-Live-Preview: https://hungit-dev.github.io/tic-tac-toe/
+Live-Preview: https://unrivaled-raindrop-61e30d.netlify.app/
